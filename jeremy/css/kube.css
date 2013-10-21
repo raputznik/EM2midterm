@@ -3894,13 +3894,12 @@ aside h2 {
   font-size: 30px;
 }
 .jeremy-side {
-  margin-top: 15px;
+  margin-top: 12px;
 }
 .jeremy-side .icon {
   float: left;
   width: 40px;
   height: 40px;
-  background-color: #cd1e2a;
   border-top-right-radius: 50%;
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 50%;
@@ -3909,6 +3908,45 @@ aside h2 {
   -webkit-box-shadow: inset 0 6px 10px -6px #000000;
   box-shadow: inset 0 6px 10px -6px #000000;
   margin: 0 15px 0 5px;
+}
+.jeremy-side .linn {
+  background-color: #cd1e2a;
+}
+.avatar1 {
+  margin: 30px 30px;
+}
+.linn:hover {
+  background-color: #961620;
+}
+.jeremy-side .pris {
+  background-color: #83a3b4;
+}
+.pris:hover {
+  background-color: #546b77;
+}
+.jeremy-side .sara {
+  background-color: #a3b483;
+}
+.sara:hover {
+  background-color: #768360;
+}
+.jeremy-side .kels {
+  background-color: #b5a81c;
+}
+.kels:hover {
+  background-color: #887e16;
+}
+.jeremy-side .marc {
+  background-color: #9b5eaa;
+}
+.marc:hover {
+  background-color: #73467f;
+}
+.jeremy-side .jams {
+  background-color: #d09b4e;
+}
+.jams:hover {
+  background-color: #967038;
 }
 .jeremy-side h3 {
   float: left;
@@ -3949,10 +3987,6 @@ aside h2 {
 .wrapper {
   margin: auto;
   max-width: 980px;
-  padding: 36px 10px;
-}
-.main aside {
-  background-color: #f6f6f6;
 }
 .blocks li {
   background-color: #f8f8f8;
@@ -3965,10 +3999,24 @@ aside h2 {
   overflow: hidden;
   margin-bottom: 1.5em;
   border-bottom: 1px solid #eee;
+  width: 980;
+  height: 300px;
 }
 .header h1 {
-  float: left;
-  margin: 0;
+  color: #4a4949;
+  font-style: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 8em;
+  color: #fff;
+  margin: 50px 0 0 25px;
+}
+.header h4 {
+  color: #ecc98e;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: italic;
+  margin: -23px 0 0 25px;
 }
 .header nav {
   padding-top: 10px;
