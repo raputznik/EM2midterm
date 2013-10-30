@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 /*
 	Kube Professional CSS-framework Version 2.0.0
 
@@ -480,6 +481,10 @@ fieldset {
 legend {
   font-weight: bold;
   padding: 0 1em;
+}
+.titleFontStyle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 }
 .com {
   color: #888;
@@ -3901,6 +3906,10 @@ aside h2 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 30px;
 }
+.header2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
 .jeremy-side {
   margin-top: 12px;
 }
@@ -4102,4 +4111,46 @@ aside h2 {
   .wrapper {
     width: 420px;
   }
+}
+.gallery-wrapper {
+  position: relative;
+  overflow-y: hidden;
+  margin-bottom: 20px;
+}
+.slidesjs-navigation {
+  height: 68px;
+  width: 33px;
+  background-color: #000;
+  display: block;
+  cursor: pointer;
+  position: absolute;
+  top: 35%;
+  z-index: 33;
+  text-indent: -99999px;
+}
+.slidesjs-next {
+  right: 0;
+}
+.meta {
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  z-index: 33;
+}
+#caption,
+#status {
+  font-size: 12px;
+  font-style: italic;
+  color: #fff;
+}
+#caption {
+  padding: 24px 0 20px 20px;
+  float: left;
+}
+#status {
+  text-align: right;
+  float: right;
+  padding: 24px 20px 20px 0;
 }
